@@ -16,3 +16,7 @@ if (validateEmail(email)) {
 function validatePassword(password) {
     return password.length >= 6;
 }
+
+function arePasswordsEqual(password, passwordRepeat) {
+    return password === passwordRepeat;
+}
