@@ -21,6 +21,7 @@ body {
     height: 90px;
     border-radius: 50%;
   }
+
   
   
   .container {
@@ -36,10 +37,8 @@ body {
     border-radius: 25px;
     height: 330px;
     padding-top: 2%;
-  
-    
-  
   }
+  .home
   
   .content{
     height: 200px;
@@ -88,21 +87,10 @@ body {
     flex-wrap: wrap;
     gap: 40px;
   }
-  
-  .footer-nav {
-    display: flex;
-    flex-direction: column;
-  }
-  
+    
   footer h2 {
     color: rgb(167, 164, 164);
     font-weight: 600;
-  }
-  
-  .footer-navlink {
-    text-decoration: none;
-    color: #fff;
-    width: fit-content;
   }
   
   .subscribe-footer button {
