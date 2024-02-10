@@ -4,21 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Weather Prediction App</title>
+    <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <!-- External CSS file -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-
-
     <div class="wrapper">
+        <!-- Sidebar section -->
         <div class="sidebar">
             <div>
+                <!-- Search form -->
                 <form class="search" id="search">
                     <input type="text" id="query" placeholder="Search..." />
                     <button><i class="fas fa-search"></i></button>
                 </form>
+                <!-- Weather information -->
                 <div class="weather-icon">
                     <img id="icon" src="icons/sun/4.png" alt="" />
                 </div>
@@ -30,6 +32,7 @@
                     <p id="date-time">Monday, 12:00</p>
                 </div>
                 <div class="divider"></div>
+                <!-- Weather condition and rain information -->
                 <div class="condition-rain">
                     <div class="condition">
                         <i class="fas fa-cloud"></i>
@@ -41,6 +44,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Location information -->
             <div class="location">
                 <div class="location-icon">
                     <i class="fas fa-map-marker-alt"></i>
@@ -50,21 +54,27 @@
                 </div>
             </div>
         </div>
+        <!-- Main content section -->
         <div class="main">
             <nav>
+                <!-- Navigation options -->
                 <ul class="options">
                     <button class="hourly">today</button>
                     <button class="week active">week</button>
                 </ul>
+                <!-- Unit options -->
                 <ul class="options units">
                     <button class="celcius active">°C</button>
                     <button class="fahrenheit">°F</button>
                 </ul>
             </nav>
+            <!-- Weather cards and highlights -->
             <div class="cards" id="weather-cards"></div>
             <div class="highlights">
                 <h2 class="heading">today's highlights</h2>
                 <div class="cards">
+                    <!-- Highlight cards with various information -->
+                    <!-- UV Index -->
                     <div class="card2">
                         <h4 class="card-heading">UV Index</h4>
                         <div class="content">
@@ -72,6 +82,7 @@
                             <p class="uv-text">Low</p>
                         </div>
                     </div>
+                    <!-- Wind Status -->
                     <div class="card2">
                         <h4 class="card-heading">Wind Status</h4>
                         <div class="content">
@@ -79,6 +90,7 @@
                             <p>km/h</p>
                         </div>
                     </div>
+                    <!-- Sunrise & Sunset -->
                     <div class="card2">
                         <h4 class="card-heading">Sunrise & Sunset</h4>
                         <div class="content">
@@ -86,6 +98,7 @@
                             <p class="sun-set">0</p>
                         </div>
                     </div>
+                    <!-- Humidity -->
                     <div class="card2">
                         <h4 class="card-heading">Humidity</h4>
                         <div class="content">
@@ -93,6 +106,7 @@
                             <p class="humidity-status">Normal</p>
                         </div>
                     </div>
+                    <!-- Visibility -->
                     <div class="card2">
                         <h4 class="card-heading">Visibility</h4>
                         <div class="content">
@@ -100,6 +114,7 @@
                             <p class="visibilty-status">Normal</p>
                         </div>
                     </div>
+                    <!-- Air Quality -->
                     <div class="card2">
                         <h4 class="card-heading">Air Quality</h4>
                         <div class="content">
@@ -112,7 +127,7 @@
         </div>
     </div>
 
-
+    <!-- JavaScript file for functionality -->
     <script src="script.js"></script>
 
 </body>
