@@ -65,6 +65,14 @@ body {
     margin: 0 10px;
     transition: background 0.3s ease;
   }
+
+  .loginBtn a{
+    text-decoration: none;
+  }
+
+  .registerBtn a{
+    text-decoration: none;
+  }
   
   button:hover {
     background: linear-gradient(to right, #45a049, #0e87d0);
