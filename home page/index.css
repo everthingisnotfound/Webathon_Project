@@ -38,7 +38,16 @@ body {
     height: 330px;
     padding-top: 2%;
   }
-  .home
+
+  .content h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+  }
+
+  .content h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+  }  
   
   .content{
     height: 200px;
