@@ -23,6 +23,29 @@ body {
   background-position: center;
   transition: background-image 0.3s ease;
 }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-icon {
+  display: flex;
+  align-items: center;
+}
+
+.account-icon img {
+  width: 30px; /* Adjust the width and height as needed */
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.account-icon a{
+
+}
+
 img {
   width: 100%;
 }
